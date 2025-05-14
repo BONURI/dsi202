@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Near TU - ค้นหาหอพักใกล้มธ.</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans Thai', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full top-0 left-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-gray-800">Rent Near TU</a>
+            <div class="space-x-6">
+                <a href="/" class="text-gray-700 hover:text-gray-900">Home</a>
+                <a href="/login" class="text-gray-700 hover:text-gray-900">Log In</a>
+                <a href="/signup" class="text-gray-700 hover:text-gray-900">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 bg-gray-100 text-center">
+        <h1 class="text-4xl font-bold mb-2">ค้นหาหอพักใกล้มธ.</h1>
+        <p class="text-lg mb-8 text-gray-600">หอพักที่ใช่ ในราคาที่คุณพอใจ</p>
+
+        <!-- Search Form -->
+        <form action="/search" method="GET" class="max-w-5xl mx-auto bg-white p-6 rounded-xl shadow-sm grid grid-cols-1 md:grid-cols-5 gap-4 items-end border border-gray-200">
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">ตำแหน่ง / คำค้น</label>
+                <input type="text" name="location" placeholder="เช่น ใกล้ประตูเชียงราก1" class="w-full px-4 py-2 rounded-md border border-gray-300 text-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500">
+            </div>
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">ชื่อหอพัก</label>
+                <input type="text" name="dorm_name" placeholder="ชื่อหอพัก เช่น หอพักเชียงราก1" class="w-full px-4 py-2 rounded-md border border-gray-300 text-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500">
+            </div>
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">ราคาต่ำสุด</label>
+                <input type="number" name="min_price" placeholder="เช่น 1500" class="w-full px-4 py-2 rounded-md border border-gray-300 text-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500">
+            </div>
+            <div>
+                <label class="block text-sm text-gray-600 mb-1">ราคาสูงสุด</label>
+                <input type="number" name="max_price" placeholder="เช่น 5000" class="w-full px-4 py-2 rounded-md border border-gray-300 text-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500">
+            </div>
+            <div class="md:col-span-1">
+                <button type="submit" class="w-full px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700 transition"> ค้นหา</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Recommended Dorms Section -->
+    <main class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-6">หอพักแนะนำ</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Example Dorm Card -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                <img src="https://via.placeholder.com/300x200" alt="หอพักเชียงราก1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold text-gray-800">หอพักเชียงราก1</h3>
+                    <p class="text-sm text-gray-600">ห้อง 222</p>
+                    <button class="mt-4 px-6 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                <img src="https://via.placeholder.com/300x200" alt="หอพักเชียงราก1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold text-gray-800">หอพักเชียงราก1</h3>
+                    <p class="text-sm text-gray-600">ห้อง 99</p>
+                    <button class="mt-4 px-6 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700">ดูรายละเอียด</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                <img src="https://via.placeholder.com/300x200" alt="หอพักเชียงราก2" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold text-gray-800">หอพักเชียงราก2</h3>
+                    <p class="text-sm text-gray-600">ห้อง 11</p>
+                    <button class="mt-4 px-6 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700">ดูรายละเอียด</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-gray-600 p-4 mt-10">
+        <div class="container mx-auto text-center">
+            <p>© 2568 Rent Near TU. สงวนลิขสิทธิ์ทั้งหมด.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
