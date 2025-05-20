@@ -11,4 +11,7 @@ def home(request):
     featured_rooms = [] 
     return render(request, 'home.html', {'featured_rooms': featured_rooms})
 
+def room_detail(request, pk):
+    room = get_object_or_404(Room, pk=pk)
+    return render(request, 'room_detail.html', {'room': room})
 

@@ -56,36 +56,25 @@
     </section>
 
     <!-- Recommended Dorms Section -->
-    <main class="container mx-auto px-4 py-16">
-        <h2 class="text-3xl font-semibold text-gray-800 mb-6">หอพักแนะนำ</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Example Dorm Card -->
-            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
-                <img src="https://via.placeholder.com/300x200" alt="หอพักเชียงราก1" class="w-full h-48 object-cover">
-                <div class="p-4">
-                    <h3 class="text-xl font-bold text-gray-800">หอพักเชียงราก1</h3>
-                    <p class="text-sm text-gray-600">ห้อง 222</p>
-                    <button class="mt-4 px-6 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700">ดูรายละเอียด</button>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
-                <img src="https://via.placeholder.com/300x200" alt="หอพักเชียงราก1" class="w-full h-48 object-cover">
-                <div class="p-4">
-                    <h3 class="text-xl font-bold text-gray-800">หอพักเชียงราก1</h3>
-                    <p class="text-sm text-gray-600">ห้อง 99</p>
-                    <button class="mt-4 px-6 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700">ดูรายละเอียด</button>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
-                <img src="https://via.placeholder.com/300x200" alt="หอพักเชียงราก2" class="w-full h-48 object-cover">
-                <div class="p-4">
-                    <h3 class="text-xl font-bold text-gray-800">หอพักเชียงราก2</h3>
-                    <p class="text-sm text-gray-600">ห้อง 11</p>
-                    <button class="mt-4 px-6 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700">ดูรายละเอียด</button>
-                </div>
+<main class="container mx-auto px-4 py-16">
+    <h2 class="text-3xl font-semibold text-gray-800 mb-6">หอพักแนะนำ</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {% for room in rooms|slice:":3" %}
+        <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+            <img src="{{ room.image.url|default:'https://via.placeholder.com/300x200' }}" alt="{{ room.name }}" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-bold text-gray-800">{{ room.name }}</h3>
+                <p class="text-sm text-gray-600">ห้อง {{ room.room_no }}</p>
+                <a href="{% url 'details' room.id %}" class="mt-4 px-6 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-700 inline-block">
+                    ดูรายละเอียด
+                </a>
             </div>
         </div>
-    </main>
+        {% endfor %}
+    </div>
+</main>
+
+</body>
 
     <!-- Footer -->
     <footer class="bg-gray-100 text-gray-600 p-4 mt-10">
@@ -93,6 +82,5 @@
             <p>© 2568 Rent Near TU. สงวนลิขสิทธิ์ทั้งหมด.</p>
         </div>
     </footer>
-
-</body>
+    
 </html>
