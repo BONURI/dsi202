@@ -24,27 +24,27 @@ Rent Near TU is not only a technological solution to facilitate housing searches
 ### Landlords
 - **As a tenant**, I want to be able to switch my role to a landlord so that I can post rental listings by myself.
   - **Usage Steps**:
-    1. Go to your personal profile page.
-    2. Select the “Apply to be a Landlord” menu option.
-    3. Fill in the additional information as required by the system.
-    4. Once the application is approved, your role will be changed to landlord.
+    1.Go to your personal profile page.
+    2.Select the “Apply to be a Landlord” menu option.
+    3.Fill in the additional information as required by the system.
+    4.Once the application is approved, your role will be changed to landlord.
     5.Add room details for rent, such as dormitory name, price, amenities, and number of rooms.
-    6. Check and manage the status of your listed rooms through your profile page.
+    6.Check and manage the status of your listed rooms through your profile page.
 - **As a landlord**, I want to provide detailed information about the rooms, such as room size, furniture, and rental price, so that tenants can have complete information before contacting me.
   - **Usage Steps**:
-    1. Log in as a landlord.
-    2. Add a new room with details such as dormitory name, location, number of available rooms, rental price.
-    3. Check the status and manage rooms through the profile page.
+    1.Log in as a landlord.
+    2.Add a new room with details such as dormitory name, location, number of available rooms, rental price.
+    3.Check the status and manage rooms through the profile page.
 
 ## Design and Prototyping
 
 - **User Flow Diagram**: Mobile-optimized flows for tenant and landlord interactions. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
 - **Sitemap**: Logical navigation structure for efficient user journeys. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
 - **Wireframe**: Polished UI designs showcasing the app’s aesthetic and functionality. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-- **Prototype**: Low-fidelity prototype tested to validate user interactions, ensuring tasks are completed in under 30 seconds for optimal usability.
+- **Prototype**:prototype tested to evaluate user experience, with a strong focus on optimal usability.
 - **Design Specifications**:
-  - **Color Theme**: Black and white for a clean, professional aesthetic.
-  - **Font**: Inter, a modern typeface optimized for readability across devices.
+  - **Color Theme**:The app uses a black-and-white color scheme to create a clean, minimalist look that reflects professionalism.
+  - **Font**:a modern font that emphasizes clarity and readability. It is well suited for display across all devices, including smartphones and computers.
 
 
 
