@@ -10,11 +10,6 @@ To address this issue, the Rent Near TU web application was developed as an acce
 
 Rent Near TU is not only a technological solution to facilitate housing searches, but it also carries a strong social mission to reduce inequality in housing access for people with limited income and resources. By lowering the cost and time associated with searching for accommodations, the platform promotes housing security and expands opportunities for education and employment. Additionally, the system is designed for scalability, allowing future expansion to other communities that face similar demographic and housing challenges.
 
-
-To address this issue, the Rent Near TU web application was developed as an accessible and efficient platform designed to help income constrained individuals find affordable dormitories and rental rooms near Thammasat University. Built on the robust and reliable Django Web Framework, the platform serves both tenants particularly students and laborers and property owners. Tenants can search for housing based on their budget and essential amenities and make reservations directly, while landlords can manage and update their listings in real time, ensuring fresh and diverse housing information.
-
-Rent Near TU is not only a technological solution to facilitate housing searches, but it also carries a strong social mission to reduce inequality in housing access for people with limited income and resources. By lowering the cost and time associated with searching for accommodations, the platform promotes housing security and expands opportunities for education and employment. Additionally, the system is designed for scalability, allowing future expansion to other communities that face similar demographic and housing challenges.
-
 ## User Stories
 
 ### Tenants
@@ -41,15 +36,28 @@ Rent Near TU is not only a technological solution to facilitate housing searches
     2. Add a new room with details such as dormitory name, location, number of available rooms, rental price.
     3. Check the status and manage rooms through the profile page.
 
+## Design and Prototyping
+
+- **User Flow Diagram**: Mobile-optimized flows for tenant and landlord interactions. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
+- **Sitemap**: Logical navigation structure for efficient user journeys. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
+- **Wireframe**: Polished UI designs showcasing the app’s aesthetic and functionality. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
+- **Prototype**: Low-fidelity prototype tested to validate user interactions, ensuring tasks are completed in under 30 seconds for optimal usability.
+- **Design Specifications**:
+  - **Color Theme**: Black and white for a clean, professional aesthetic.
+  - **Font**: Inter, a modern typeface optimized for readability across devices.
 
 
 
 
 
+3. คุณภาพของ README (30 คะแนน): README.md มีเนื้อหาอย่างน้อย 1,000 ตัวอักษร
+3.1บทคัดย่อ
+3.2 user stories จำนวนไม่น้อยกว่า 3 ลักษณะการใช้งาน
+3.3 ขั้นตอนการใช้งานตาม user stories
+3.4 การติดตั้งและใช้งาน
+4. ระบบสามารถทำงานได้ไม่เกิดปัญหา: docker compose up ไม่เกิดปัญหา ทำงานได้ตามแบบที่กำหนด
+### ส่วนที่ 2: รายงานโครงการ (50 คะแนน)
+1. บทคัดย่อ มีความน่าสนใจและเป็นประโยชน์ต่อชุมชน (20 คะแนน) (บทคัดย่อใน README.md)
+2. การนำเสนอระบบเป็นไปตามที่ออกแบบ (30 คะแนน) (YouTube on README.md)
 
 
-
-
-user stories จำนวนไม่น้อยกว่า 3 ลักษณะการใช้งาน
-ขั้นตอนการใช้งานตาม user stories
-การติดตั้งและใช้งานgit push origin main
