@@ -1,14 +1,16 @@
 
-# Rent Near TU
+# Rent Near TU: Affordable Dormitory Solution for Thammasat University
+
 ## Abstract
 
+### Purpose
+Housing is a fundamental factor that significantly affects quality of life, especially for people with income constraints such as students, laborers, and low- to middle-income families. These groups often face challenges in accessing affordable and suitable rental accommodations—particularly in areas near Thammasat University’s Rangsit campus, where housing demand is high. Existing housing search systems typically lack centralized information and the flexibility to filter options based on budget and real-life living needs.
 
-ที่อยู่อาศัยถือเป็นปัจจัยพื้นฐานที่มีความสำคัญต่อคุณภาพชีวิต โดยเฉพาะสำหรับกลุ่มประชากรที่มีข้อจำกัดด้านรายได้ เช่น นักศึกษา แรงงาน หรือครอบครัวรายได้ปานกลางถึงต่ำ ซึ่งมักประสบปัญหาในการเข้าถึงห้องเช่าที่มีราคาย่อมเยาและเหมาะสมกับความต้องการ โดยเฉพาะในเขตพื้นที่ใกล้มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต ที่มีความต้องการห้องพักอาศัยจำนวนมาก แต่ระบบการค้นหาที่พักในปัจจุบันยังขาดการรวมศูนย์ข้อมูลและขาดความยืดหยุ่นในการเลือกหอพักตามงบประมาณและปัจจัยการใช้ชีวิตจริง
-จากปัญหาดังกล่าว ผู้จัดทำจึงได้พัฒนาเว็บแอปพลิเคชัน “Rent Near” เพื่อเป็นทางเลือกในการช่วยเหลือกลุ่มผู้มีข้อจำกัดด้านรายได้ ให้สามารถค้นหาหอพักหรือห้องเช่าในพื้นที่ใกล้มหาวิทยาลัยธรรมศาสตร์ได้อย่างสะดวกและมีประสิทธิภาพ แอปพลิเคชันนี้ถูกพัฒนาด้วย Django ซึ่งเป็นเฟรมเวิร์กที่เหมาะสมสำหรับระบบที่ต้องการบริหารจัดการข้อมูลอย่างเป็นระบบ พร้อมออกแบบให้ผู้ใช้งาน ทั้ง “ผู้เช่า” และ “ผู้ให้เช่า” โดยผู้เช่าสามารถค้นหาหอพักตามงบประมาณ สิ่งอำนวยความสะดวกพื้นฐานที่ต้องการ และจองหอพัก ในขณะที่ผู้ให้เช่าสามารถลงข้อมูลหอพักของตนเองได้โดยตรง ทำให้ระบบมีข้อมูลที่ทันสมัยและหลากหลาย ระบบถูกออกแบบให้ใช้งานง่าย เพื่อให้เกิดประสิทธิภาพสูงสุดในการค้นหาหอพัก
-โครงการนี้ไม่เพียงแต่มุ่งเน้นการใช้เทคโนโลยีเพื่ออำนวยความสะดวกในการค้นหาที่พัก แต่ยังมีเป้าหมายเชิงสังคมในการ ลดความเหลื่อมล้ำในการเข้าถึงที่อยู่อาศัย สำหรับกลุ่มคนที่มีรายได้น้อยหรือมีทรัพยากรจำกัด อันจะช่วยลดภาระด้านค่าใช้จ่าย เพิ่มความมั่นคงในการอยู่อาศัย และสร้างโอกาสทางการศึกษาและอาชีพในระยะยาว ตลอดจนสามารถขยายผลระบบนี้ไปใช้ในพื้นที่อื่นที่มีลักษณะประชากรและปัญหาคล้ายคลึงกันได้ในอนาคต
+To address this issue, the Rent Near TU web application was developed as an accessible and efficient platform designed to help income constrained individuals find affordable dormitories and rental rooms near Thammasat University. Built on the robust and reliable Django Web Framework, the platform serves both tenants particularly students and laborers and property owners. Tenants can search for housing based on their budget and essential amenities and make reservations directly, while landlords can manage and update their listings in real time, ensuring fresh and diverse housing information.
 
-เสร็จบทคัดย่อเรียบร้อยแล้วเย้
+Rent Near TU is not only a technological solution to facilitate housing searches, but it also carries a strong social mission to reduce inequality in housing access for people with limited income and resources. By lowering the cost and time associated with searching for accommodations, the platform promotes housing security and expands opportunities for education and employment. Additionally, the system is designed for scalability, allowing future expansion to other communities that face similar demographic and housing challenges.
 
+## Core Technologies
 
 
 
