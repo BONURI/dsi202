@@ -72,7 +72,14 @@ This project not only focuses on using technology to facilitate the search for h
    ```bash
    python manage.py migrate
    ```
-
+1. Set up the Database
+   ```bash
+   python manage.py migrate
+   ``
+2. Create a Superuser Account
+   ```bash
+   python manage.py createsuperuser
+   ``
 
 
 
