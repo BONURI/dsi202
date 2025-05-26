@@ -55,21 +55,15 @@ This project not only focuses on using technology to facilitate the search for h
   - **Color Theme**:The app uses a black-and-white color scheme to create a clean, minimalist look that reflects professionalism.
   - **Font**:a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
 
+  ---
+
 ## Installation and Usage
 
 
 
 
 
-3. คุณภาพของ README (30 คะแนน): README.md มีเนื้อหาอย่างน้อย 1,000 ตัวอักษร
-3.1บทคัดย่อ
-3.2 user stories จำนวนไม่น้อยกว่า 3 ลักษณะการใช้งาน
-3.3 ขั้นตอนการใช้งานตาม user stories
-3.4 การติดตั้งและใช้งาน
-4. ระบบสามารถทำงานได้ไม่เกิดปัญหา: docker compose up ไม่เกิดปัญหา ทำงานได้ตามแบบที่กำหนด
-### ส่วนที่ 2: รายงานโครงการ (50 คะแนน)
-1. บทคัดย่อ มีความน่าสนใจและเป็นประโยชน์ต่อชุมชน (20 คะแนน) (บทคัดย่อใน README.md)
-2. การนำเสนอระบบเป็นไปตามที่ออกแบบ (30 คะแนน) (YouTube on README.md)
+
 
  
 
