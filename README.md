@@ -36,8 +36,6 @@ This project not only focuses on using technology to facilitate the search for h
 5. Add room details for rent, such as dormitory name, price, amenities, and number of rooms.
 6. Check and manage the status of your listed rooms through your profile page.
 
----
-
 ### Landlords user story 2:
 **As a landlord**, I want to provide detailed information about the rooms, such as room size, furniture, and rental price, so that tenants can have complete information before contacting me.
 
