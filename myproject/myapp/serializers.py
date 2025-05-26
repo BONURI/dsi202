@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import Room, Booking, Landlord, Tenant, CustomUser
+from datetime import date
 
 class CustomUserSerializer(serializers.ModelSerializer):
     class Meta:
