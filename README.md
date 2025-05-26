@@ -11,7 +11,7 @@ This project not only focuses on using technology to facilitate the search for h
 
 
 
-## User Stories
+## User Stories and Usage Steps
 
 ### Tenants
 - **As a tenant**, I want to view the details of the room's amenities so that I can plan to purchase additional items appropriately.
@@ -45,7 +45,7 @@ This project not only focuses on using technology to facilitate the search for h
   - **Color Theme**:The app uses a black-and-white color scheme to create a clean, minimalist look that reflects professionalism.
   - **Font**:a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
 
-
+## Installation and Usage
   
 
 
