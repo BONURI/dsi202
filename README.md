@@ -11,11 +11,11 @@ This project not only focuses on using technology to facilitate the search for h
 
 
 
-## User Stories and Usage Steps
+## User Stories and User Steps
 
 ### Tenants
 - **As a tenant**, I want to view the details of the room's amenities so that I can plan to purchase additional items appropriately.
-  - **Usage Steps**:
+  - **User Steps**:
     1. Start by searching for a room using keywords such as dormitory name, price range, or preferred location.
     2. Select a room of interest from the displayed list.
     3. Carefully review room details such as rental price, included furniture, contract duration, and landlord contact information.
@@ -24,7 +24,7 @@ This project not only focuses on using technology to facilitate the search for h
     6. Make a payment via QR code to officially confirm your booking.
 ### Landlords
 - **As a tenant**,I want to be able to switch my role to a landlord so that I can post rental listings by myself.
-  - **Usage Steps**:
+  - **User Steps**:
     1. Go to your personal profile page.
     2. Select the “Apply to be a Landlord” menu option.
     3. Fill in the additional information as required by the system.
@@ -32,7 +32,7 @@ This project not only focuses on using technology to facilitate the search for h
     5. Add room details for rent, such as dormitory name, price, amenities, and number of rooms.
     6. Check and manage the status of your listed rooms through your profile page.
 - **As a landlord**, I want to provide detailed information about the rooms, such as room size, furniture, and rental price, so that tenants can have complete information before contacting me.
-  - **Usage Steps**:
+  - **User Steps**:
     1. Log in as a landlord.
     2. Add a new room with details such as dormitory name, location, number of available rooms, rental price.
     3. Check the status and manage rooms through the profile page.
