@@ -59,21 +59,16 @@ This project not only focuses on using technology to facilitate the search for h
 
 ## Installation and Usage
 
-### 1️.Clone the Project from GitHub
+## 
 
-```bash
-git clone https://github.com/BONURI/dsi202_2025.git
-cd dsi202_2025
-
-### 2️.Standard Installation
-
->  You can complete this step **before or after** setting up Google OAuth2. The system will run normally without it, and you can enable Google login later.
+1. **Clone the Project from GitHub**
+   ```bash
+   git clone https://github.com/BONURI/dsi202_2025.git
+   cd myproject
+   ```
 
 
-#### Set up the Database
 
-```bash
-python manage.py migrate
 
 
 
