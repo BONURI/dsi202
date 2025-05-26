@@ -1,5 +1,4 @@
-
-# Rent Near TU
+ Rent Near TU
 ---
 
 ## Abstract
@@ -46,7 +45,7 @@ This project not only focuses on using technology to facilitate the search for h
 2. Add a new room with details 
 3. Check the status and manage rooms through the profile page.
 
-
+---
 
 ## Design and Prototyping
 - **User Flow Diagram**: Mobile-optimized flows for tenant and landlord interactions. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
