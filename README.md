@@ -9,6 +9,44 @@ In response to this problem, the developers have created a web application calle
 
 This project not only focuses on using technology to facilitate the search for housing but also has a social goal reducing inequality in access to housing for those with low incomes or limited resources. It aims to alleviate financial burdens, increase residential stability, and create opportunities for education and employment in the long term. Furthermore, the system has the potential to be scaled and applied in other areas with similar population characteristics and issues in the future.
 
+## User Stories and User Steps
+
+### Tenant user story:
+**As a tenant**, I want to view the details of the room's amenities so that I can plan to purchase additional items appropriately.
+
+### User Steps:
+1. Start by searching for a room using keywords such as dormitory name, price range, or preferred location.
+2. Select a room of interest from the displayed list.
+3. Carefully review room details such as rental price, included furniture, contract duration, and landlord contact information.
+4. Click the “Book Room” button to proceed with the reservation.
+5. Choose your desired move in date.
+6. Make a payment via QR code to officially confirm your booking.
+
+---
+
+
+### Landlords user story 1:
+**As a tenant**, I want to be able to switch my role to a landlord so that I can post rental listings by myself.
+
+### User Steps:
+1. Go to your personal profile page.
+2. Select the “Apply to be a Landlord” menu option.
+3. Fill in the additional information as required by the system.
+4. Once the application is approved, your role will be changed to landlord.
+5. Add room details for rent, such as dormitory name, price, amenities, and number of rooms.
+6. Check and manage the status of your listed rooms through your profile page.
+
+---
+
+### Landlords user story 2:
+**As a landlord**, I want to provide detailed information about the rooms, such as room size, furniture, and rental price, so that tenants can have complete information before contacting me.
+
+### User Steps:
+1. Log in as a landlord.
+2. Add a new room with details 
+3. Check the status and manage rooms through the profile page.
+
+
 
 
 ## User Stories and User Steps
@@ -56,47 +94,36 @@ This project not only focuses on using technology to facilitate the search for h
 **As a tenant**, I want to view the details of the room's amenities so that I can plan to purchase additional items appropriately.
 
 ### User Steps:
-1. Search for a room using keywords such as **dormitory name**, **price range**, or **preferred location**.
-2. Select a room of interest from the search results.
-3. Review details: **rental price**, **included furniture**, **contract duration**, and **landlord contact**.
-4. Click the **“Book Room”** button.
-5. Choose your **desired move-in date**.
-6. Make a payment via **QR code** to confirm your booking.
+1. Start by searching for a room using keywords such as dormitory name, price range, or preferred location.
+2. Select a room of interest from the displayed list.
+3. Carefully review room details such as rental price, included furniture, contract duration, and landlord contact information.
+4. Click the “Book Room” button to proceed with the reservation.
+5. Choose your desired move in date.
+6. Make a payment via QR code to officially confirm your booking.
 
 ---
 
-## Landlords
 
 ### Landlords user story 1:
 **As a tenant**, I want to be able to switch my role to a landlord so that I can post rental listings by myself.
 
 ### User Steps:
-1. Navigate to your **profile page**.
-2. Click **“Apply to be a Landlord”**.
-3. Fill in the required **additional information**.
-4. Await **approval** from the system.
-5. Once approved, your role is changed to **landlord**.
-6. Add room details such as:
-   - Dormitory name  
-   - Price  
-   - Amenities  
-   - Number of rooms  
-7. Manage your listings via your **profile page**.
+1. Go to your personal profile page.
+2. Select the “Apply to be a Landlord” menu option.
+3. Fill in the additional information as required by the system.
+4. Once the application is approved, your role will be changed to landlord.
+5. Add room details for rent, such as dormitory name, price, amenities, and number of rooms.
+6. Check and manage the status of your listed rooms through your profile page.
 
 ---
 
 ### Landlords user story 2:
-**As a landlord**, I want to provide detailed information about the rooms so that tenants can have complete info before contacting me.
+**As a landlord**, I want to provide detailed information about the rooms, such as room size, furniture, and rental price, so that tenants can have complete information before contacting me.
 
 ### User Steps:
-1. Log in as a **landlord**.
-2. Add a new room with the following details:
-   - Dormitory name  
-   - Location  
-   - Number of available rooms  
-   - Rental price  
-   - Room size, furniture, and amenities  
-3. Manage and monitor room status via the **profile page**.
+1. Log in as a landlord.
+2. Add a new room with details 
+3. Check the status and manage rooms through the profile page.
 
 
 
