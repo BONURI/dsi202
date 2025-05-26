@@ -1,0 +1,15 @@
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+    dependencies = [
+        ("myapp", "0019_landlord_account_holder_name_and_more"),
+    ]
+
+    operations = [
+        migrations.AddField(
+            model_name="landlord",
+            name="address",
+            field=models.TextField(blank=True, null=True),
+        ),
+    ]

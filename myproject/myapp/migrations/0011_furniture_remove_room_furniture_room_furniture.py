@@ -1,0 +1,35 @@
+
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+    dependencies = [
+        ("myapp", "0010_room_image_delete_roomimage"),
+    ]
+
+    operations = [
+        migrations.CreateModel(
+            name="Furniture",
+            fields=[
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=100)),
+            ],
+        ),
+        migrations.RemoveField(
+            model_name="room",
+            name="furniture",
+        ),
+        migrations.AddField(
+            model_name="room",
+            name="furniture",
+            field=models.ManyToManyField(blank=True, to="myapp.furniture"),
+        ),
+    ]
