@@ -59,15 +59,15 @@ This project not only focuses on using technology to facilitate the search for h
 
 ## Installation and Usage
 
-## 
+## 1. **Clone the Project from GitHub**
 
-1. **Clone the Project from GitHub**
+1. 
    ```bash
    git clone https://github.com/BONURI/dsi202_2025.git
    cd myproject
    ```
 
-
+## 1. **Clone the Project from GitHub**
 
 
 
