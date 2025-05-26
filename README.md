@@ -55,7 +55,7 @@ This project not only focuses on using technology to facilitate the search for h
   - **Color Theme**:The app uses a black-and-white color scheme to create a clean, minimalist look that reflects professionalism.
   - **Font**:a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
 
-  ---
+---
 
 ## Installation and Usage
 
