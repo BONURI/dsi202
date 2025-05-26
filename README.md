@@ -86,11 +86,14 @@ This project not only focuses on using technology to facilitate the search for h
 
 ## 3. **Set Up Google OAuth2 Login**
 
+---
+## Youtube
+
 
 ---
 
-## Concution
-
+## Conclution
+The “Rent Near Tu” project is a web application developed to help reduce housing inequality for low income groups such as students and laborers. By leveraging technology, it facilitates a comprehensive and convenient platform for finding and offering rental accommodations near Thammasat University. The system supports both tenants and landlords, enhancing residential stability, reducing financial burdens, and promoting long term opportunities for education and employment. Furthermore, the system can be expanded to other areas facing similar housing challenges in the future.
 
 
 
