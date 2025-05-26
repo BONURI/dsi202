@@ -84,8 +84,12 @@ This project not only focuses on using technology to facilitate the search for h
 * Access the app: [http://localhost:8000/](http://localhost:8000/)
 * Admin panel: [http://localhost:8000/admin/](http://localhost:8000/admin/)
 
-## 2. **Set Up Google OAuth2 Login**
+## 3. **Set Up Google OAuth2 Login**
 
+
+---
+
+## Concution
 
 
 
