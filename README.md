@@ -48,6 +48,53 @@ This project not only focuses on using technology to facilitate the search for h
 ## Installation and Usage
   
 
+## Tenants
+
+### User Story:
+**As a tenant**, I want to view the details of the room's amenities so that I can plan to purchase additional items appropriately.
+
+### User Steps:
+1. Search for a room using keywords such as **dormitory name**, **price range**, or **preferred location**.
+2. Select a room of interest from the search results.
+3. Review details: **rental price**, **included furniture**, **contract duration**, and **landlord contact**.
+4. Click the **“Book Room”** button.
+5. Choose your **desired move-in date**.
+6. Make a payment via **QR code** to confirm your booking.
+
+---
+
+## Landlords
+
+### User Story 1:
+**As a tenant**, I want to be able to switch my role to a landlord so that I can post rental listings by myself.
+
+### User Steps:
+1. Navigate to your **profile page**.
+2. Click **“Apply to be a Landlord”**.
+3. Fill in the required **additional information**.
+4. Await **approval** from the system.
+5. Once approved, your role is changed to **landlord**.
+6. Add room details such as:
+   - Dormitory name  
+   - Price  
+   - Amenities  
+   - Number of rooms  
+7. Manage your listings via your **profile page**.
+
+---
+
+### User Story 2:
+**As a landlord**, I want to provide detailed information about the rooms so that tenants can have complete info before contacting me.
+
+### User Steps:
+1. Log in as a **landlord**.
+2. Add a new room with the following details:
+   - Dormitory name  
+   - Location  
+   - Number of available rooms  
+   - Rental price  
+   - Room size, furniture, and amenities  
+3. Manage and monitor room status via the **profile page**.
 
 
 
