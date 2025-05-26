@@ -46,11 +46,13 @@ This project not only focuses on using technology to facilitate the search for h
   - **Font**:a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
 
 ## Installation and Usage
+
+
   
 
-## Tenants
+## User Stories and User Steps
 
-### User Story:
+### Tenant user story:
 **As a tenant**, I want to view the details of the room's amenities so that I can plan to purchase additional items appropriately.
 
 ### User Steps:
@@ -65,7 +67,7 @@ This project not only focuses on using technology to facilitate the search for h
 
 ## Landlords
 
-### User Story 1:
+### Landlords user story 1:
 **As a tenant**, I want to be able to switch my role to a landlord so that I can post rental listings by myself.
 
 ### User Steps:
@@ -83,7 +85,7 @@ This project not only focuses on using technology to facilitate the search for h
 
 ---
 
-### User Story 2:
+### Landlords user story 2:
 **As a landlord**, I want to provide detailed information about the rooms so that tenants can have complete info before contacting me.
 
 ### User Steps:
