@@ -76,11 +76,11 @@ This project not only focuses on using technology to facilitate the search for h
 2. Create a Superuser Account
    ```bash
    python manage.py createsuperuser
-   ``
+   
 3. Run the Development Server
    ```bash
    python manage.py runserver
-   ``
+   
 * Access the app: [http://localhost:8000/](http://localhost:8000/)
 * Admin panel: [http://localhost:8000/admin/](http://localhost:8000/admin/)
 
