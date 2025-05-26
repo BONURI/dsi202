@@ -67,7 +67,11 @@ This project not only focuses on using technology to facilitate the search for h
    cd myproject
    ```
 
-## 1. **Clone the Project from GitHub**
+## 2.**Standard Installation**
+1. Set up the Database
+   ```bash
+   python manage.py migrate
+   ```
 
 
 
