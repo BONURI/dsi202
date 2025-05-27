@@ -19,9 +19,11 @@ Tenants can find suitable accommodations at affordable prices and view room amen
 1. Start by searching for a room using keywords such as dormitory name, price range, or preferred location.
 2. Select a room of interest from the displayed list.
 3. Carefully review room details such as rental price, included furniture, contract duration, and landlord contact information.
-4. Click the “Book Room” button to proceed with the reservation.
+4. Click the “Book This Room” button to proceed with the reservation.
 5. Choose your desired move in date.
-6. Make a payment via QR code to officially confirm your booking.
+6. Confirm your booking.
+7. Make a payment via QR code to officially.
+
 
 
 
@@ -30,7 +32,7 @@ Tenants can switch their role to landlords in order to post rental listings by t
 
 ### User Steps:
 1. Go to your personal profile page.
-2. Select the “Apply to be a Landlord” menu option.
+2. Select the “Apply to be Landlord” menu option.
 3. Fill in the additional information as required by the system.
 4. Once the application is approved, your role will be changed to landlord.
 5. Add room details for rent, such as dormitory name, price, amenities, and number of rooms.
@@ -120,7 +122,8 @@ Inter, a modern font that emphasizes clarity and readability. It is well-suited 
 
 ---
 ## Youtube
-
+DSI202 FINAL PROJECT:RENT NEAR TU
+https://youtu.be/gozVwh4X_P4?si=zwVlh33oh5PXRo1o
 
 ---
 
