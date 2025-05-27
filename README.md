@@ -45,15 +45,29 @@ This project not only focuses on using technology to facilitate the search for h
 3. Check the status and manage rooms through the profile page.
 
 ---
+# UX/UI design
 
-## Design and Prototyping
-- **User Flow Diagram**: Mobile-optimized flows for tenant and landlord interactions. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-- **Sitemap**: Logical navigation structure for efficient user journeys. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-- **Wireframe**: Polished UI designs showcasing the app’s aesthetic and functionality. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-- **Prototype**:prototype tested to evaluate user experience, with a strong focus on optimal usability.
-- **Design Specifications**:
-  - **Color Theme**:The app uses a black-and-white color scheme to create a clean, minimalist look that reflects professionalism.
-  - **Font**:a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
+## User Flow Diagram
+Mobile-optimized flows for tenant and landlord interactions.  
+🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
+
+## Sitemap
+Logical navigation structure for efficient user journeys.  
+🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
+## Wireframe
+Polished UI designs showcasing the app’s aesthetic and functionality.  
+🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
+
+## Prototype
+Prototype tested to evaluate user experience, with a strong focus on optimal usability.
+
+## Color Theme
+The app uses a black, white and blue color scheme to create a clean, minimalist look that reflects professionalism.
+
+## Font
+Inter, a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
+
+
 
 ---
 
@@ -101,15 +115,14 @@ The “Rent Near Tu” project is a web application developed to help reduce hou
 
 ## User Flow Diagram
 Mobile-optimized flows for tenant and landlord interactions.  
-🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU)
+🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
 
 ## Sitemap
 Logical navigation structure for efficient user journeys.  
-🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU)
-
+🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
 ## Wireframe
 Polished UI designs showcasing the app’s aesthetic and functionality.  
-🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU)
+🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
 
 ## Prototype
 Prototype tested to evaluate user experience, with a strong focus on optimal usability.
@@ -119,3 +132,13 @@ The app uses a black, white and blue color scheme to create a clean, minimalist 
 
 ## Font
 Inter, a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
+
+
+## Design and Prototyping
+- **User Flow Diagram**: Mobile-optimized flows for tenant and landlord interactions. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
+- **Sitemap**: Logical navigation structure for efficient user journeys. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
+- **Wireframe**: Polished UI designs showcasing the app’s aesthetic and functionality. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
+- **Prototype**:prototype tested to evaluate user experience, with a strong focus on optimal usability.
+- **Design Specifications**:
+  - **Color Theme**:The app uses a black-and-white color scheme to create a clean, minimalist look that reflects professionalism.
+  - **Font**:a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
