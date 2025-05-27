@@ -100,6 +100,19 @@ Inter, a modern font that emphasizes clarity and readability. It is well-suited 
 
 ## 3. **Set Up Google OAuth2 Login**
 
+### Steps to Set Up:
+
+1. **Visit** the [Google Cloud Console](https://console.cloud.google.com/)
+
+2. **Create a new project**, or select an existing one.
+
+3. Navigate to:  
+   `APIs & Services`>`Credentials`>️ `Create Credentials`>️ `OAuth 2.0 Client IDs`
+
+4. Select **Web application** as the application type and configure the following:
+
+### 🔗 Authorized JavaScript origins:
+http://localhost:8000
 ---
 ## Youtube
 
@@ -109,36 +122,3 @@ Inter, a modern font that emphasizes clarity and readability. It is well-suited 
 ## Conclution
 The “Rent Near Tu” project is a web application developed to help reduce housing inequality for low income groups such as students and laborers. By leveraging technology, it facilitates a comprehensive and convenient platform for finding and offering rental accommodations near Thammasat University. The system supports both tenants and landlords, enhancing residential stability, reducing financial burdens, and promoting long term opportunities for education and employment. Furthermore, the system can be expanded to other areas facing similar housing challenges in the future.
 
-
-
-# UX/UI design
-
-## User Flow Diagram
-Mobile-optimized flows for tenant and landlord interactions.  
-🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-
-## Sitemap
-Logical navigation structure for efficient user journeys.  
-🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-## Wireframe
-Polished UI designs showcasing the app’s aesthetic and functionality.  
-🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-
-## Prototype
-Prototype tested to evaluate user experience, with a strong focus on optimal usability.
-
-## Color Theme
-The app uses a black, white and blue color scheme to create a clean, minimalist look that reflects professionalism.
-
-## Font
-Inter, a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
-
-
-## Design and Prototyping
-- **User Flow Diagram**: Mobile-optimized flows for tenant and landlord interactions. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-- **Sitemap**: Logical navigation structure for efficient user journeys. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-- **Wireframe**: Polished UI designs showcasing the app’s aesthetic and functionality. [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU).
-- **Prototype**:prototype tested to evaluate user experience, with a strong focus on optimal usability.
-- **Design Specifications**:
-  - **Color Theme**:The app uses a black-and-white color scheme to create a clean, minimalist look that reflects professionalism.
-  - **Font**:a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
