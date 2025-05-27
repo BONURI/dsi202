@@ -110,9 +110,15 @@ Inter, a modern font that emphasizes clarity and readability. It is well-suited 
    `APIs & Services`>`Credentials`>️ `Create Credentials`>️ `OAuth 2.0 Client IDs`
 
 4. Select **Web application**, and add `http://localhost:8000` to **Authorized JavaScript origins** and `http://localhost:8000/accounts/google/login/callback/` to **Authorized redirect URIs**.
+5. **copy the generated** `Client ID` and `Client Secret`.
+6. Create a `.env` file in your project root and add the following:
+```env
+     SOCIAL_AUTH_GOOGLE_OAUTH2_KEY=YOUR_CLIENT_ID
+     SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET=YOUR_CLIENT_SECRET
+     ```
 
-### 🔗 Authorized JavaScript origins:
-http://localhost:8000
+
+
 ---
 ## Youtube
 
