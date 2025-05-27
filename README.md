@@ -97,3 +97,29 @@ The “Rent Near Tu” project is a web application developed to help reduce hou
 
 
 
+# Design and Prototyping
+
+## User Flow Diagram
+Mobile-optimized flows for tenant and landlord interactions.  
+🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU)
+
+## Sitemap
+Logical navigation structure for efficient user journeys.  
+🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU)
+
+## Wireframe
+Polished UI designs showcasing the app’s aesthetic and functionality.  
+🔗 [View in Figma](https://www.figma.com/design/ucFm2O23q7mJ3CoAeuyKqi/Rent-near-TU)
+
+## Prototype
+Prototype tested to evaluate user experience, with a strong focus on optimal usability.
+
+---
+
+## Design Specifications
+
+### Color Theme
+The app uses a black, white and blue color scheme to create a clean, minimalist look that reflects professionalism.
+
+### Font
+Inter, a modern font that emphasizes clarity and readability. It is well-suited for display across all devices, including smartphones and computers.
