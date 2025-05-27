@@ -109,14 +109,14 @@ Inter, a modern font that emphasizes clarity and readability. It is well-suited 
 3. Navigate to:  
    `APIs & Services`>`Credentials`>️ `Create Credentials`>️ `OAuth 2.0 Client IDs`
 
-4. Select **Web application**, and add `http://localhost:8000` to **Authorized JavaScript origins** and `http://localhost:8000/accounts/google/login/callback/` to **Authorized redirect URIs**.
+4. Select Web application, and add `http://localhost:8000` to Authorized JavaScript origins and `http://localhost:8000/accounts/google/login/callback/` to Authorized redirect URIs.
 5. **copy the generated** `Client ID` and `Client Secret`.
 6. Create a `.env` file in your project root and add the following:
-```env
+   ```env
      SOCIAL_AUTH_GOOGLE_OAUTH2_KEY=YOUR_CLIENT_ID
      SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET=YOUR_CLIENT_SECRET
      ```
-
+7. **Important**: Make sure to add `.env` to your `.gitignore` file to **keep your credentials safe** from being committed to version control.
 
 
 ---
