@@ -109,7 +109,7 @@ Inter, a modern font that emphasizes clarity and readability. It is well-suited 
 3. Navigate to:  
    `APIs & Services`>`Credentials`>️ `Create Credentials`>️ `OAuth 2.0 Client IDs`
 
-4. Select **Web application** as the application type and configure the following:
+4. Select **Web application**, and add `http://localhost:8000` to **Authorized JavaScript origins** and `http://localhost:8000/accounts/google/login/callback/` to **Authorized redirect URIs**.
 
 ### 🔗 Authorized JavaScript origins:
 http://localhost:8000
