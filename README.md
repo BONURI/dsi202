@@ -13,7 +13,7 @@ This project not only focuses on using technology to facilitate the search for h
 ## User Stories and User Steps
 
 ### Tenant user story:
-**As a tenant**, I want to view the details of the room's amenities so that I can plan to purchase additional items appropriately.
+Tenants can find suitable accommodations at affordable prices and view room amenities in detail to plan for additional purchases appropriately.
 
 ### User Steps:
 1. Start by searching for a room using keywords such as dormitory name, price range, or preferred location.
@@ -26,7 +26,7 @@ This project not only focuses on using technology to facilitate the search for h
 
 
 ### Landlords user story 1:
-**As a tenant**, I want to be able to switch my role to a landlord so that I can post rental listings by myself.
+Tenants can switch their role to landlords in order to post rental listings by themselves.
 
 ### User Steps:
 1. Go to your personal profile page.
@@ -37,8 +37,7 @@ This project not only focuses on using technology to facilitate the search for h
 6. Check and manage the status of your listed rooms through your profile page.
 
 ### Landlords user story 2:
-**As a landlord**, I want to provide detailed information about the rooms, such as room size, furniture, and rental price, so that tenants can have complete information before contacting me.
-
+Landlords can provide detailed information about the room, such as room size, furniture, and rental price, so that tenants receive complete and accurate information.
 ### User Steps:
 1. Log in as a landlord.
 2. Add a new room with details 
@@ -128,3 +127,43 @@ Inter, a modern font that emphasizes clarity and readability. It is well-suited 
 ## Conclution
 The “Rent Near Tu” project is a web application developed to help reduce housing inequality for low income groups such as students and laborers. By leveraging technology, it facilitates a comprehensive and convenient platform for finding and offering rental accommodations near Thammasat University. The system supports both tenants and landlords, enhancing residential stability, reducing financial burdens, and promoting long term opportunities for education and employment. Furthermore, the system can be expanded to other areas facing similar housing challenges in the future.
 
+
+
+
+
+## User Stories and User Steps
+
+### Tenant user story:
+**As a tenant**, I want to view the details of the room's amenities so that I can plan to purchase additional items appropriately.
+Tenants can find suitable accommodations at affordable prices and view room amenities in detail to plan for additional purchases appropriately.
+
+### User Steps:
+1. Start by searching for a room using keywords such as dormitory name, price range, or preferred location.
+2. Select a room of interest from the displayed list.
+3. Carefully review room details such as rental price, included furniture, contract duration, and landlord contact information.
+4. Click the “Book Room” button to proceed with the reservation.
+5. Choose your desired move in date.
+6. Make a payment via QR code to officially confirm your booking.
+
+
+
+### Landlords user story 1:
+**As a tenant**, I want to be able to switch my role to a landlord so that I can post rental listings by myself.
+
+### User Steps:
+1. Go to your personal profile page.
+2. Select the “Apply to be a Landlord” menu option.
+3. Fill in the additional information as required by the system.
+4. Once the application is approved, your role will be changed to landlord.
+5. Add room details for rent, such as dormitory name, price, amenities, and number of rooms.
+6. Check and manage the status of your listed rooms through your profile page.
+
+### Landlords user story 2:
+**As a landlord**, I want to provide detailed information about the rooms, such as room size, furniture, and rental price, so that tenants can have complete information before contacting me.
+
+### User Steps:
+1. Log in as a landlord.
+2. Add a new room with details 
+3. Check the status and manage rooms through the profile page.
+
+---
